@@ -7,7 +7,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
-
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link href="stilos.css" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,54 +17,101 @@
   </style>
 </head>
 <body>
-  About
-  Services
-  Projects
-  Contact
+  <div class="container-xxl">
+    <header class="bg-primary">
+      <nav class="navbar navbar-expand-sm bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="images/logo.svg" alt="logo sunnyside"></a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Projects</a>
+              </li>
+            </ul>
+            <button class="btn btn-light" type="submit">Contact</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+  <main>
+    <section class="top bg-primary">
+        
+        <div class="top-mobile d-block d-sm-none">
+          <div class="d-flex flex-column align-items-center">
+            <h1 class="text-white my-5">WE ARE CREATIVES</h1>
+            <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" stroke-width="6" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3v100M3 95.484l15 15 15-15"/></g></svg>
+          </div>
+        </div>
+        
+        <div class="top-desktop d-none d-sm-block">
+         <div class="d-flex flex-column align-items-center">
+            <h1 class="text-white my-5">WE ARE CREATIVES</h1>
+            <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" stroke-width="6" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3v100M3 95.484l15 15 15-15"/></g></svg>
+          </div>
+        </div>
+    
+    
+    </section>
+    <section>
+      Transform your brand
 
-  We are creatives
+      We are a full-service creative agency specializing in helping brands grow fast. 
+      Engage your clients through compelling visuals that do most of the marketing for you.
 
-  Transform your brand
+      Learn more
+    </section>
+    <section>
+      Stand out to the right audience
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+      Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
 
-  Learn more
+      Learn more
+    </section>
+    <section>
+      Graphic design
+      Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
 
-  Stand out to the right audience
+      Photography
+      Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+    </section>
+    <section>
+      Client testimonials
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+      We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+      Emily R.
+      Marketing Director
 
-  Learn more
+      Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+      Thomas S.
+      Chief Operating Officer
 
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+      Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+      Jennie F.
+      Business Owner
+    </section>
 
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+      About
+      Services
+      Projects
+      Contact
+  </main>
 
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  </div>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
